@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Inicio*/
+.header__nav{
+    background-image: linear-gradient(to right, white,rgb(174, 174, 240));
+    display: grid;
+    grid-template-columns:10% 90%;  
+
+}
+.header__item{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-line: none;
+    display: flex;
+    padding: 5px;
+    justify-content: flex-end;
+    transition: 3s;
+        
+}
+.header__item:hover{
+    font-size: 25px;
+}
+.contenido{
+    box-sizing: content-box;
+    display: block;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 20px;
+    background-image: linear-gradient(to bottom, rgb(196, 247, 196),white);    
+}
+.contenido__postal{
+   align-items: center;
+   width: 100%;
+   transition: 5s;
+}
+.contenido__postal:hover{
+    width: 120%;
+}
+/*Fin Inicio*/
+/*--------------------------------------------------------*/
+/*Ingeniero Balloffet*/
+.ing__balloffet{
+    background-image: linear-gradient(to bottom, rgb(230, 245, 230),rgb(249, 252, 249));
+}
+h1 .ing{
+    text-align: center;
+    font-size: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ing{
+    position: relative;
+    top: 10px;
+    left: 33%;    
+}
+
+.ping{
+    box-sizing: content-box;
+    padding: 2rem;
+    display: block;
+
+}
+.Av__Balloffet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+/*Fin Ingeniero Balloffet*/
+/*--------------------------------------------------------------------*/
+/*Mendoza*/
+.mendoza{
+    background-image: linear-gradient(to bottom, black,rgba(0, 0, 0, 0.397));
+}
+.section__mdz p{
+    width: 1fr;
+    height: 1fr;
+    display: flex;
+}
+.h2{
+    box-sizing: content-box;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    /*background-image: linear-gradient(to bottom,black,rgb(94, 94, 94));*/
+    color: whitesmoke;
+    
+}
+.imgh2{
+    width: 100%;
+}
+
+section h2{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    /*background-color: black;*/
+    color: whitesmoke;
+
+}
+section .h3{
+    display: grid;
+    /*background-image: linear-gradient(to bottom,black,rgb(94, 94, 94));*/
+    color: whitesmoke;
+}
+h3{
+    color: rgb(230, 230, 235);
+    font-family: 'Courier New', Courier, monospace;    
+}
+section div{
+    grid-template-columns:repeat(3,33%);
+    /*display: flex;
+    flex-wrap: wrap;*/
+    
+}
+.h3{
+    box-sizing: content-box;
+    
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    /*background-image: linear-gradient(to bottom,black,rgb(94, 94, 94));*/
+    color: whitesmoke;
+}
+.figure{
+    box-sizing: content-box;
+    display: flex;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    /*background-image: linear-gradient(to bottom,black,rgb(94, 94, 94));*/
+    color: whitesmoke;
+    flex-wrap: wrap;
+    }
+/*Fin Mendoza*/
+/*--------------------------------------------------------------------------*/
+/*Jacaranda*/
+
+.Arbol__Jacaranda{
+    background-image: linear-gradient(to top,rgb(112, 1, 69),rgb(102, 36, 91));
+}
+.Jacaranda{
+    width: 100%;
+    padding-left: 0%;
+}
+.div__grid{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap:20px ;
+    /*background-color: rgb(255, 231, 246);*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: oblique;
+}
+.plazas{
+    display: flex;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: whitesmoke;
+    flex-wrap: wrap;
+}
+/*Fin Jacaranda*/
+
+
+
+/*PIE DE PAGINA*/
+footer{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.267),rgba(255, 255, 255, 0.425));
+    font-size: 1.5rem;
+    transition: 2s;
+    }
+footer:hover{
+    font-size: 2rem;
+}
+    
+/*FIN DE PIE DE PAGINA*/
+/*---------------------------------------------------------------------------------*/
+/*ANIMACIONES*/
+
+/*FIN ANIMACIONES*/
+/*---------------------------------------------------------------------------------*/
+/*RESPONSIVE*/
+/*MOVIL*/
+@media screen and (max-width: 600px){
+    .ing__balloffet{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    h1 .ing{
+        text-align: left;
+        font-size: 15%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .ing{
+        position: relative;
+        top: 10px;
+        left: 10%;    
+    }
+    
+    .ping{
+        box-sizing: content-box;
+        /*padding: 2rem;*/
+        display: grid;
+        grid-template-columns: 100%;
+        
+    
+    }
+    .Av__Balloffet{
+        display: flex;
+        align-items: flex-start;
+
+    }
+    iframe{
+        width: auto;
+    
+    }
+    
+}
+/*ESCRITORIO*/
+@media screen and (min-width: 1024px){
+    .Arbol__Jacaranda{
+        background-image: linear-gradient(to top,rgb(112, 1, 69),rgb(80, 36, 36));
+        margin: 0rem;
+        padding: 2rem;
+        color: aliceblue;
+        
+    }
+    .Jacaranda{
+        width: 100%;
+        padding-left: 0%;
+    }
+    .div__grid{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-column-gap:20px ;
+        /*background-color: rgb(255, 231, 246);*/
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        font-style: oblique;
+        gap: 1rem;
+    }
+    .plazas{
+        display: flex;
+        padding: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        
+        color: whitesmoke;
+        flex-wrap: wrap;
+        gap: 2rem;
+        align-items: baseline;
+    } 
+}
+/*FIN RESPOSIVE*/
