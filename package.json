@@ -1,0 +1,19 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leavidela/PreEntrega2Videla.git"
+  },
+  "author": "Leandro Videla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leavidela/PreEntrega2Videla/issues"
+  },
+  "homepage": "https://github.com/leavidela/PreEntrega2Videla#readme"
+}

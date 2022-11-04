@@ -192,8 +192,7 @@ footer:hover{
 /*MOVIL*/
 @media screen and (max-width: 600px){
     .ing__balloffet{
-        display: flex;
-        flex-direction: column;
+        display: block;
         
         
     }
