@@ -1,0 +1,134 @@
+.header__nav {
+  background-color: rgba(3, 3, 3, 0.329);
+  display: grid;
+  grid-template-columns: 10% 90%; }
+  .header__nav .header__item {
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-line: none;
+    display: flex;
+    justify-content: end; }
+
+section .contenido__postal {
+  align-items: center;
+  width: 100%;
+  transition: 5s; }
+
+section .contenido__postal:hover {
+  width: 105%; }
+
+section .contenido {
+  box-sizing: content-box;
+  display: block;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 20px;
+  background-image: linear-gradient(to bottom, #c4f7c4, white); }
+
+.ing__balloffet {
+  background-image: linear-gradient(to bottom, #e6f5e6, #f9fcf9); }
+  .ing__balloffet h1 .ing {
+    text-align: center;
+    font-size: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  .ing__balloffet .ing {
+    position: relative;
+    top: 10px;
+    left: 33%; }
+  .ing__balloffet .ping {
+    box-sizing: content-box;
+    padding: 2rem;
+    display: block; }
+  .ing__balloffet .Av__Balloffet {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+footer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.267), rgba(255, 255, 255, 0.425));
+  font-size: 1.5rem;
+  transition: 2s; }
+
+footer:hover {
+  font-size: 2rem; }
+
+.mendoza {
+  background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.397)); }
+  .mendoza section .section__mdz p {
+    width: 1fr;
+    height: 1fr;
+    display: flex; }
+    .mendoza section .section__mdz p h2 {
+      font-size: 30px;
+      text-decoration: underline;
+      font-family: 'Times New Roman', Times, serif;
+      /*background-color: black;*/
+      color: whitesmoke; }
+      .mendoza section .section__mdz p h2 .imgh2 {
+        width: 100%; }
+    .mendoza section .section__mdz p .h2 {
+      box-sizing: content-box;
+      display: grid;
+      grid-template-rows: auto;
+      padding: 15px;
+      font-family: 'Times New Roman', Times, serif;
+      /*background-image: linear-gradient(to bottom,black,rgb(94, 94, 94));*/
+      color: whitesmoke; }
+      .mendoza section .section__mdz p .h2 .imgh2 {
+        width: 100%; }
+    .mendoza section .section__mdz p .h3 {
+      display: grid;
+      /*background-image: linear-gradient(to bottom,black,rgb(94, 94, 94));*/
+      color: whitesmoke; }
+    .mendoza section .section__mdz p div {
+      grid-template-columns: repeat(3, 33%);
+      /*display: flex;
+                flex-wrap: wrap;*/ }
+      .mendoza section .section__mdz p div h3 {
+        color: #e6e6eb;
+        font-family: 'Courier New', Courier, monospace; }
+  .mendoza section .figure {
+    box-sizing: content-box;
+    display: flex;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    /*background-image: linear-gradient(to bottom,black,rgb(94, 94, 94));*/
+    color: whitesmoke;
+    flex-wrap: wrap; }
+
+footer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.267), rgba(255, 255, 255, 0.425));
+  font-size: 1.5rem;
+  transition: 2s; }
+
+footer:hover {
+  font-size: 2rem; }
+
+.Arbol__Jacaranda {
+  background-image: linear-gradient(to top, #700145, #66245b); }
+  .Arbol__Jacaranda section .Jacaranda {
+    width: 100%;
+    padding-left: 0%; }
+  .Arbol__Jacaranda section .div__grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 20px;
+    /*background-color: rgb(255, 231, 246);*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: oblique; }
+  .Arbol__Jacaranda section .plazas {
+    display: flex;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    flex-wrap: wrap; }

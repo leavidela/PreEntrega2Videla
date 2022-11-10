@@ -1,0 +1,26 @@
+.Arbol__Jacaranda{
+    background-image: linear-gradient(to top,rgb(112, 1, 69),rgb(102, 36, 91));
+    section{
+        .Jacaranda{
+            width: 100%;
+            padding-left: 0%;
+        }
+        .div__grid{
+            display: grid;
+            grid-template-columns: 100%;
+            grid-column-gap:20px ;
+            /*background-color: rgb(255, 231, 246);*/
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            font-style: oblique;
+        }
+        .plazas{
+            display: flex;
+            padding: 15px;
+            font-family: 'Times New Roman', Times, serif;
+            
+            color: whitesmoke;
+            flex-wrap: wrap;
+        }
+    }
+}

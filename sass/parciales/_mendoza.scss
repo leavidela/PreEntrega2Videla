@@ -1,0 +1,69 @@
+.mendoza{
+    background-image: linear-gradient(to bottom, black,rgba(0, 0, 0, 0.397));
+    section{
+        .section__mdz p{
+            width: 1fr;
+            height: 1fr;
+            display: flex;
+            h2{
+                font-size: 30px;
+                text-decoration: underline;
+                font-family: 'Times New Roman', Times, serif;
+                /*background-color: black;*/
+                color: whitesmoke;
+                .imgh2{
+                    width: 100%;
+                }
+            }
+            .h2{
+                box-sizing: content-box;
+                display: grid;
+                grid-template-rows: auto;
+                padding: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                /*background-image: linear-gradient(to bottom,black,rgb(94, 94, 94));*/
+                color: whitesmoke;
+                .imgh2{
+                    width: 100%;
+                }
+            }
+             
+            .h3{
+                display: grid;
+                /*background-image: linear-gradient(to bottom,black,rgb(94, 94, 94));*/
+                color: whitesmoke;
+            }
+            div{
+                grid-template-columns:repeat(3,33%);
+                /*display: flex;
+                flex-wrap: wrap;*/
+                h3{
+                    color: rgb(230, 230, 235);
+                    font-family: 'Courier New', Courier, monospace;    
+                }
+            }
+        
+        }
+        .figure{
+            box-sizing: content-box;
+            display: flex;
+            padding: 15px;
+            font-family: 'Times New Roman', Times, serif;
+            /*background-image: linear-gradient(to bottom,black,rgb(94, 94, 94));*/
+            color: whitesmoke;
+            flex-wrap: wrap;
+            }
+
+    } 
+}
+footer{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.267),rgba(255, 255, 255, 0.425));
+    font-size: 1.5rem;
+    transition: 2s;
+    }
+footer:hover{
+    font-size: 2rem;
+}

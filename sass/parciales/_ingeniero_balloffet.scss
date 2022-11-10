@@ -1,0 +1,37 @@
+.ing__balloffet{
+    background-image: linear-gradient(to bottom, rgb(230, 245, 230),rgb(249, 252, 249));
+    h1 .ing{
+        text-align: center;
+        font-size: 15%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .ing{
+        position: relative;
+        top: 10px;
+        left: 33%;    
+    }
+    
+    .ping{
+        box-sizing: content-box;
+        padding: 2rem;
+        display: block;
+    
+    }
+    .Av__Balloffet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }   
+}
+footer{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.267),rgba(255, 255, 255, 0.425));
+    font-size: 1.5rem;
+    transition: 2s;
+    }
+footer:hover{
+    font-size: 2rem;
+}
