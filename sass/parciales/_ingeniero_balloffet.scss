@@ -1,9 +1,10 @@
+@import "./variable";
 .ing__balloffet{
-    background-image: linear-gradient(to bottom, rgb(230, 245, 230),rgb(249, 252, 249));
+    background-image: $fondo;
     h1 .ing{
         text-align: center;
         font-size: 15%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: $fuente;
     }
     .ing{
         position: relative;
@@ -28,7 +29,7 @@ footer{
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.267),rgba(255, 255, 255, 0.425));
+    background-image:$footer__fondo;
     font-size: 1.5rem;
     transition: 2s;
     }

@@ -1,10 +1,11 @@
+@import "./variable";
 .header__nav{
     background-color: rgba(3, 3, 3, 0.329);
     display: grid;
     grid-template-columns: 10% 90%;
     .header__item{
         font-size: 1rem;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: $fuente;
         text-decoration-line: none;
         display: flex;
         justify-content: end;
@@ -26,9 +27,7 @@ section{
         width: 50%;
         height: 50%;
         text-align: center;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-top: 20px;
-        background-image: linear-gradient(to bottom, rgb(196, 247, 196),white);    
+        padding: $padding;
+        background-image: $fondo;    
     }
 }

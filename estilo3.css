@@ -4,7 +4,7 @@
   grid-template-columns: 10% 90%; }
   .header__nav .header__item {
     font-size: 1rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-decoration-line: none;
     display: flex;
     justify-content: end; }
@@ -23,17 +23,15 @@ section .contenido {
   width: 50%;
   height: 50%;
   text-align: center;
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-top: 20px;
+  padding: 20px 25% 0px 25%;
   background-image: linear-gradient(to bottom, #c4f7c4, white); }
 
 .ing__balloffet {
-  background-image: linear-gradient(to bottom, #e6f5e6, #f9fcf9); }
+  background-image: linear-gradient(to bottom, #c4f7c4, white); }
   .ing__balloffet h1 .ing {
     text-align: center;
     font-size: 15%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
   .ing__balloffet .ing {
     position: relative;
     top: 10px;
@@ -59,7 +57,7 @@ footer:hover {
   font-size: 2rem; }
 
 .mendoza {
-  background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.397)); }
+  background-image: linear-gradient(to bottom, #c4f7c4, white); }
   .mendoza section .section__mdz p {
     width: 1fr;
     height: 1fr;
@@ -70,7 +68,7 @@ footer:hover {
       font-family: 'Times New Roman', Times, serif;
       /*background-color: black;*/
       color: whitesmoke; }
-      .mendoza section .section__mdz p h2 .imgh2 {
+      .mendoza section .section__mdz p h2 img .imgh2 {
         width: 100%; }
     .mendoza section .section__mdz p .h2 {
       box-sizing: content-box;

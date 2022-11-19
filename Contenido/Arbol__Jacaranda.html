@@ -4,13 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Jacaranda, conoce mas sobre la historia de la fauna mendocina">
+    <meta name="keywords" content="Mendoza, Balloffet, Jacaranda, Partes  importantes de Mendoza, Renacimiento y Sabiduria Indigena, Construyendo un Futuro">
+    <title>Renacimiento y Sabiduria Indigena</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../index.html">
     <link rel="stylesheet" href="./Contenido/Ingeniero__Balloffet.html">
     <link rel="stylesheet" href="./Contenido/Mendoza.html">
     <link rel="stylesheet" href="#">
     <link rel="stylesheet" href="../estilo3.css">
 </head>
+<header>
+  <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+          <a href="/index.html"><img  class="header__img" src="/Imagenes/Mendoza Logo.jfif" width="100rem"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/Contenido/Ingeniero__Balloffet.html">Construyendo un Futuro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Contenido/Mendoza.html">Partes  importantes de Mendoza</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Contenido/Arbol__Jacaranda.html">Renacimiento y Sabiduria Indigena</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
 <body class="Arbol__Jacaranda">
     <section>
         <img src="../Imagenes/Jacaranda2.webp" alt="" class="Jacaranda">
@@ -20,20 +46,27 @@
             <p>Hablando de sus hojas, son de colores verdes, peciolados y grandes y las flores son de forma tubular, se reúnen en espigas y son azules o púrpura azulado, éstas cubren el árbol durante toda la primavera, si bien pueden tener una segunda floración a principios de otoño. Sus frutos son unas capsulas leñosas, planas, cuyas semillas son aladas. Sin embargo, es un árbol resistente a las condiciones urbanas puesto que está inclinado en plantaciones de alineación. El Jacaranda es un árbol rústico en cuanto a tipo de suelo, de hecho prefiere terrenos areno-arcillosos que mantengan la humedad.</p>
         </div>
         <h3>Dichos árboles se encuentran en:</h3>
-        <article class="plazas">
-            <figure>
-                <img src="../Imagenes/Godoy Cruz (Plaza Mayor, Dr. Tomas Godoy Cruz).jpg" alt="">
-                <figcaption>Plaza Mayor, Dr. Tomas Godoy Cruz</figcaption>
-            </figure>
-            <figure>
-                <img src="../Imagenes/Luján de Cuyo (Cabañas Don Amadeo).jpg" alt="">
-                <figcaption>Cabañas Don Amadeo, Lujan de Cuyo</figcaption>
-            </figure>
-            <figure>
-                <img src="../Imagenes/San Rafael.jpg" alt="">
-                <figcaption>San Rafael</figcaption>
-            </figure>
-        </article>  
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/Imagenes/Godoy Cruz (Plaza Mayor, Dr. Tomas Godoy Cruz).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/Imagenes/Luján de Cuyo (Cabañas Don Amadeo).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/Imagenes/San Rafael.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> 
         </div>
         <div class="div__grid">
             <p>A estos árboles hay que plantarlos en lugares a pleno sol, pues florece en abundante exposición soleado, las heladas lo perjudican y requieren de un clima con heladas suaves</p>
@@ -43,6 +76,7 @@
             <p>Para muchas personas, las flores del Jacaranda se asocian con el renacimiento y la sabiduría. Se dice que si sobre tu cabeza cae su flor, este traerá buenas vibras para tu vida, también utilizan sus flores y hojas para realizar rituales de prosperidad para atraer la felicidad y el amor a sus vidas.</p>
         </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 <footer>
     <a href="../index.html">Inicio</a>

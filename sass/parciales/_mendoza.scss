@@ -1,17 +1,19 @@
+@import "./variable";
 .mendoza{
-    background-image: linear-gradient(to bottom, black,rgba(0, 0, 0, 0.397));
+    background-image: $fondo;
     section{
         .section__mdz p{
             width: 1fr;
             height: 1fr;
             display: flex;
+            
             h2{
                 font-size: 30px;
                 text-decoration: underline;
                 font-family: 'Times New Roman', Times, serif;
                 /*background-color: black;*/
                 color: whitesmoke;
-                .imgh2{
+                img .imgh2{
                     width: 100%;
                 }
             }
